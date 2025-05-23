@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# виртуальное окружение
+.venv/
+venv/
+
+# кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# файлы изображений, логи, тесты
+current_file.jpg
+*.log
+app/test.py
+
+# проекты IDE
+.vscode/
+.idea/
+
+# библиотечные директории
+node_modules/
+
+# docker cache (если используете тома)
+hf_cache/
+
+# прочее
+*.swp
